@@ -66,6 +66,28 @@ Here are some example usages of the patGAN CLI:
     python patgan.py -n 5000 -o my_patients
     ```
 
+
+## Patient Features
+
+| **Name**         | **Description**                                             | **Type**            |
+|------------------|-------------------------------------------------------------|---------------------|
+| `age`            | Age of the patient (years)                                  | Continuous          |
+| `totChol`        | Total cholesterol level of the patient (mg/dL)              | Continuous          |
+| `sysBP`          | Systolic blood pressure of the patient (mmHg)               | Continuous          |
+| `diaBP`          | Diastolic blood pressure of the patient (mmHg)              | Continuous          |
+| `BMI`            | Body Mass Index of the patient (kg/m²)                      | Continuous          |
+| `heartRate`      | Heart Rate of the patient (bpm)                             | Continuous          |
+| `glucose`        | Glucose level of the patient (mg/dL)                        | Continuous          |
+| `cigsPerDay`     | Number of cigarettes smoked per day                         | Discrete Count      |
+| `male`           | Biological sex of the patient is male                       | Binary              |
+| `smoker`         | Patient is an active smoker                                 | Binary              |
+| `BPMeds`         | Patient takes blood pressure medication                     | Binary              |
+| `prevStroke`     | Patient has a history of stroke                             | Binary              |
+| `hypertension`   | Patient suffers from hypertension                           | Binary              |
+| `diabetes`       | Patient has diabetes                                        | Binary              |
+
+
+
 ## Citation
 
 If you find the tool useful for your work, please consider citing it.
