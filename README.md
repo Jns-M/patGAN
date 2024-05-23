@@ -48,22 +48,22 @@ Here are some example usages of the patGAN CLI:
 
 1. Generate the default amount of patients (100):
     ```
-    python patGAN.py
+    python patgan.py
     ```
 
 2. Generate a specific amount of patients (e.g. 1000):
     ```
-    python patGAN.py -n 1000
+    python patgan.py -n 1000
     ```
         
 3. Generate the default amount of patients (100) and specify the output CSV name:
     ```
-    python patGAN.py -o custom_name
+    python patgan.py -o custom_name
     ```
 
 4. Generate a specific amount of patients (e.g. 5000) and specify the output CSV name:
     ```
-    python patGAN.py -n 5000 -o my_patients
+    python patgan.py -n 5000 -o my_patients
     ```
 
 ## Citation
