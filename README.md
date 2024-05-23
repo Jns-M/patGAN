@@ -66,3 +66,8 @@ Here are some example usages of the patGAN CLI:
     python patGAN.py -n 5000 -o my_patients
     ```
 
+## Citation
+
+If you find the toolkit useful for your work, please consider citing it.
+
+[![DOI](https://zenodo.org/badge/801514563.svg)](https://zenodo.org/doi/10.5281/zenodo.11259941)
